@@ -1,7 +1,7 @@
 # M3239.006800: Geometric Methods for High-Dimensional Data Analysis
 The official repository for the homework assignments of the lecture &lt;Geometric Methods for High-Dimensional Data Analysis> instructed by Frank C. Park in Seoul National University. 
 
-- *[Syllabus](assets/syllabus.pdf)*
+- *[Syllabus](https://drive.google.com/file/d/12fFBcK3D4JQkCZwxvvfdTPaEjxiALBwb/view?usp=sharing)*
 
 #### Table of Contents  
 [Schedule](#Schedule)  
