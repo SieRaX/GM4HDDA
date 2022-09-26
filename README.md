@@ -5,7 +5,7 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 
 #### Table of Contents  
 [Schedule](#Schedule)  
-[Settings](#Settings)  
+[Instructions for Settings](#Instructions-for-Settings)  
 [Homework 1](#Homework-1)  
 
 
