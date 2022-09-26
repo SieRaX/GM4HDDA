@@ -50,17 +50,18 @@ The project codes are tested in the following environment.
 - numpy
 - matplotlib
 - scikit-learn
-- pytorch
-- torchvision
+- *pytorch*
+- *torchvision*
 
-To setup the environment except pytorch and torchvision, run the following script in the command line:
+To setup the environment except *pytorch* and *torchvision*, run the following script in the command line:
 ```
 pip install -r requirements.txt
 ```
-Pytorch and torchvision need to be installed separately using the method below.
+*Pytorch* and *torchvision* need to be installed separately using the method below.
 
 ### Torch installation
-Install PyTorch from the following link: [https://pytorch.org](https://pytorch.org). 
+Install PyTorch and torchvision from the following link: [https://pytorch.org](https://pytorch.org). 
+
 
 ## Homework 1
 preparing...
