@@ -10,9 +10,9 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 
 
 ## Schedule
-Task                | Due date  | PDF file   | Solution
-:---                |  :---:    |   :---:    | :---:
-**Assignment I**    | TBA       | TBA        | TBA
+Task                | Due date              | PDF file   | Solution
+:---                |  :---:                |   :---:    | :---:
+**Assignment I**    | October 3, 2022       | TBA        | TBA
 
 
 ## Settings
