@@ -69,4 +69,4 @@ Install PyTorch and torchvision from the following link: [https://pytorch.org](h
 
 
 ## Homework 1
-Follow the instructions in the ``HW1.ipynb" file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr".   
+Follow the instructions in the ``HW1.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
