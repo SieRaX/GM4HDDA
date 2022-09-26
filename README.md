@@ -17,10 +17,15 @@ Task                | Due date              | PDF file   | Solution
 
 ## Settings
 ### Environment
-preparing...
+The project codes are tested in the following environment.
+- python 3.8.13
+- numpy
+- pytorch 1.12.0
+- torchvision
+- matplotlib
+- scikit-learn
 
 ### Torch installation
-preparing...
 
 ## Homework 1
 preparing...

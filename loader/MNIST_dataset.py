@@ -1,4 +1,3 @@
-from locale import YESEXPR
 import torch
 from torchvision.datasets.mnist import MNIST
 
