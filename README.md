@@ -15,9 +15,9 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 
 
 ## Schedule
-Task                | Due date              | PDF file   | Solution
-:---                |  :---:                |   :---:    | :---:
-**Assignment I**    | October 3, 2022       | TBA        | TBA
+Task                | Due date              | PDF file          | Solution
+:---                |  :---:                |   :---:           | :---:
+**Assignment I**    | October 3, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
 
 
 ## Instructions for Settings
@@ -66,7 +66,6 @@ pip install -r requirements.txt
 
 ### Torch installation
 Install PyTorch and torchvision from the following link: [https://pytorch.org](https://pytorch.org). 
-
 
 ## Homework 1
 preparing...
