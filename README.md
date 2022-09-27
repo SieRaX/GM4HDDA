@@ -8,11 +8,11 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 [Instructions for Settings](#Instructions-for-Settings)  
 [Homework 1](#Homework-1)  
 
+
 #### TA Contacts
 - Yonghyeon Lee (yhlee@robotics.snu.ac.kr)
 - Seungyeon Kim (ksy@robotics.snu.ac.kr)
 - Younghun Kim (yhun@robotics.snu.ac.kr)
-
 
 ## Schedule
 Task                | Due date              | PDF file          | Solution
@@ -68,4 +68,4 @@ pip install -r requirements.txt
 Install PyTorch and torchvision from the following link: [https://pytorch.org](https://pytorch.org). 
 
 ## Homework 1
-preparing...
+Follow the instructions in the ``HW1.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
