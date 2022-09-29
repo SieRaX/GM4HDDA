@@ -18,7 +18,7 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 ## Schedule
 Task                | Due date              | PDF file          | Solution
 :---                |  :---:                |   :---:           | :---:
-**Assignment I**    | October 3, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
+**Assignment I**    | October 5, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
 
 
 ## Instructions for Settings
