@@ -19,7 +19,11 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 Task                | Due date              | PDF file          | Solution
 :---                |  :---:                |   :---:           | :---:
 **Assignment I**    | October 5, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
-
+**Assignment II**   | TBA      | TBA   | TBA
+**Examination**     | TBA      | TBA   | TBA
+**Assignment III**  | TBA      | TBA   | TBA
+**Assignment IV**   | TBA      | TBA   | TBA
+**Course Project**  | TBA      | TBA   | TBA
 
 ## Instructions for Settings
 ### Install Anaconda3 and Jupyter Notebook
