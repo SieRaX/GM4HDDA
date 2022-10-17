@@ -19,7 +19,11 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 Task                | Due date              | PDF file          | Solution
 :---                |  :---:                |   :---:           | :---:
 **Assignment I**    | October 5, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
+<<<<<<< HEAD
 **Assignment II**   | October 26, 2022      | [pdf](https://drive.google.com/file/d/137vAvWIOZLRwMTKf6bqIqQk7HwvnBrG_/view?usp=sharing)        | TBA
+=======
+**Assignment II**   | TBA      | TBA   | TBA
+>>>>>>> f257fb6398da0ca7b2be7a2e2f1308dd692e96e8
 **Examination**     | TBA      | TBA   | TBA
 **Assignment III**  | TBA      | TBA   | TBA
 **Assignment IV**   | TBA      | TBA   | TBA
@@ -75,7 +79,10 @@ Install PyTorch and torchvision from the following link: [https://pytorch.org](h
 ## Homework 1
 Follow the instructions in the ``HW1.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
 For problem 1~5, submit your answer sheet in the class.
+<<<<<<< HEAD
 
 ## Homework 2
 Follow the instructions in the ``HW2.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
 For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``
+=======
+>>>>>>> f257fb6398da0ca7b2be7a2e2f1308dd692e96e8
