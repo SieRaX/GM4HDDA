@@ -80,4 +80,4 @@ For problem 1~5, submit your answer sheet in the class.
 Follow the instructions in the ``HW2.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
 For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``
 
-- In problem 5 of the pdf file, change $ \mathcal{D} = $ \{ $(x_i,x_j)|x_i, x_j \in \mathcal{X}$ \} to $\mathcal{D} = $ \{ $(x_i,x_j)$ \}
+- In problem 5 of the pdf file, change $\mathcal{D} =$ \{ $(x_i,x_j)|x_i, x_j \in \mathcal{X}$ \} to $\mathcal{D} =$ \{ $(x_i,x_j)$ \}
