@@ -133,3 +133,62 @@ def visualize_Riemannian_metric_as_ellipses(train_ds, pretrained_model, get_Riem
         plt.legend()
         plt.axis('equal')
         plt.show()
+
+import math
+import random
+class relation_loader():
+    def __init__(self, relations, negative_relations, neg_sample_num=50, batch_num=10):
+        self.relations = relations
+        self.negative_relations = negative_relations
+        self.batch_num = batch_num
+        self.neg_sample_num = neg_sample_num
+        self.shuffle()
+        self.iter = 0
+        self.len = math.ceil(len(relations)/float(batch_num))
+        
+    def get_item(self, points):
+        if self.iter == self.len - 1:
+            relations = self.relations[self.batch_num * self.iter :]
+            negative_relations = self.negative_relations[self.batch_num * self.iter :]
+        else:
+            relations = self.relations[self.batch_num * self.iter : self.batch_num * (self.iter + 1)]
+            negative_relations = self.negative_relations[self.batch_num * self.iter : self.batch_num * (self.iter + 1)]
+        pos_pairs = points[relations,:]
+        negative_relations_sampled = [random.sample(negative_relation, self.neg_sample_num) for negative_relation in negative_relations]
+        neg_pairs = points[negative_relations_sampled,:]
+        self.iter += 1
+        if self.iter == self.len:
+            self.iter = 0
+            self.shuffle()
+        return pos_pairs, neg_pairs
+        
+    def shuffle(self):
+        relation_zip = list(zip(self.relations, self.negative_relations))
+        random.shuffle(relation_zip)
+        self.relations, self.negative_relations = zip(*relation_zip)
+        
+def map_row(H1, H2, n):
+    edge_mask = (H1 == 1.0)
+    m         = np.sum(edge_mask).astype(int)
+    assert m > 0
+    d = H2
+    sorted_dist = np.argsort(d)
+    precs       = np.zeros(m)
+    n_correct   = 0
+    j = 0
+    for i in range(1,n):
+        if edge_mask[sorted_dist[i]]:
+            n_correct += 1
+            precs[j] = n_correct/float(i)
+            j += 1
+            if j == m:
+                break
+    return np.sum(precs)/m
+
+def map_score(points, relation_graph, n, dist, mode):
+    n_points = points.shape[0]
+    p1 = points.repeat(n_points, 1, 1).reshape(-1,2)
+    p2 = points.unsqueeze(1).repeat(1, n_points, 1).reshape(-1,2)
+    dist_matrix = dist(p1, p2, mode).reshape(n_points, n_points)
+    maps  = [map_row(relation_graph[i,:], dist_matrix[i,:],n) for i in range(n)]
+    return np.sum(maps)/n

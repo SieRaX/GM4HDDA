@@ -1,6 +1,8 @@
 datasets
 pretrained
+gif
 *_solution.ipynb
+*.gif
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
