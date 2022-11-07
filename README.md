@@ -20,10 +20,10 @@ Task                 | Due date              | PDF file          | Solution
 :---                 |  :---:                |   :---:           | :---:
 **Assignment I**     | October 5, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
 **Assignment II**    | October 26, 2022      | [pdf](https://drive.google.com/file/d/137vAvWIOZLRwMTKf6bqIqQk7HwvnBrG_/view?usp=sharing)        | TBA
-**Project Proposal** | November 9, 2022      | [pdf](https://drive.google.com/file/d/1G8mGgSrgKwB0umlJg4jBg--oui7H6Ctz/view?usp=share_link)   | TBA
+**Project Proposal** | November 9, 2022      | [pdf](https://drive.google.com/file/d/1G8mGgSrgKwB0umlJg4jBg--oui7H6Ctz/view?usp=share_link)   | -
 **Assignment III**   | November 14, 2022     | [pdf](https://drive.google.com/file/d/1sbkAN_rn_Zh7ei3-cVR2uEVgBxW99n23/view?usp=share_link)   | TBA
 **Assignment IV**    | TBA      | TBA   | TBA
-**Course Project**   | December 9, 2022      | TBA   | TBA
+**Course Project**   | December 9, 2022      | TBA   | -
 
 ## Instructions for Settings
 ### Install Anaconda3 and Jupyter Notebook
