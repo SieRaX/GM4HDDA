@@ -61,3 +61,33 @@ class FC_image(nn.Module):
             out = self.net(x)
             out = out.reshape(-1, self.out_chan_num, dim, dim)
         return out
+
+class FC_vec(nn.Module):
+    def __init__(
+        self,
+        in_chan=2,
+        out_chan=1,
+        l_hidden=None,
+        activation=None,
+        out_activation=None,
+    ):
+        super(FC_vec, self).__init__()
+
+        self.in_chan = in_chan
+        self.out_chan = out_chan
+        l_neurons = l_hidden + [out_chan]
+        activation = activation + [out_activation]
+
+        l_layer = []
+        prev_dim = in_chan
+        for [n_hidden, act] in (zip(l_neurons, activation)):
+            l_layer.append(nn.Linear(prev_dim, n_hidden))
+            act_fn = get_activation(act)
+            if act_fn is not None:
+                l_layer.append(act_fn)
+            prev_dim = n_hidden
+
+        self.net = nn.Sequential(*l_layer)
+
+    def forward(self, x):
+        return self.net(x)

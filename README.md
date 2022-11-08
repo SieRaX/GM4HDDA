@@ -7,23 +7,23 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 [Schedule](#Schedule)  
 [Instructions for Settings](#Instructions-for-Settings)  
 [Homework 1](#Homework-1)  
-
+[Homework 2](#Homework-2)  
+[Homework 3](#Homework-3)  
 
 #### TA Contacts
+- Younghun Kim (yhun@robotics.snu.ac.kr, *Head TA*)
 - Yonghyeon Lee (yhlee@robotics.snu.ac.kr)
 - Seungyeon Kim (ksy@robotics.snu.ac.kr)
-- Younghun Kim (yhun@robotics.snu.ac.kr, *Head TA*)
-
 
 ## Schedule
-Task                | Due date              | PDF file          | Solution
-:---                |  :---:                |   :---:           | :---:
-**Assignment I**    | October 5, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
-**Assignment II**   | October 26, 2022      | [pdf](https://drive.google.com/file/d/137vAvWIOZLRwMTKf6bqIqQk7HwvnBrG_/view?usp=sharing)        | TBA
-**Examination**     | TBA      | TBA   | TBA
-**Assignment III**  | TBA      | TBA   | TBA
-**Assignment IV**   | TBA      | TBA   | TBA
-**Course Project**  | TBA      | TBA   | TBA
+Task                 | Due date              | PDF file          | Solution
+:---                 |  :---:                |   :---:           | :---:
+**Assignment I**     | October 5, 2022       | [pdf](https://drive.google.com/file/d/1CG5lfSkTxjxo6ZGSeH8xmc01cMBh-7H3/view?usp=sharing)        | TBA
+**Assignment II**    | October 26, 2022      | [pdf](https://drive.google.com/file/d/137vAvWIOZLRwMTKf6bqIqQk7HwvnBrG_/view?usp=sharing)        | TBA
+**Project Proposal** | November 9, 2022      | [pdf](https://drive.google.com/file/d/1G8mGgSrgKwB0umlJg4jBg--oui7H6Ctz/view?usp=share_link)   | -
+**Assignment III**   | November 14, 2022     | [pdf](https://drive.google.com/file/d/1sbkAN_rn_Zh7ei3-cVR2uEVgBxW99n23/view?usp=share_link)   | TBA
+**Assignment IV**    | TBA      | TBA   | TBA
+**Course Project**   | December 9, 2022      | TBA   | -
 
 ## Instructions for Settings
 ### Install Anaconda3 and Jupyter Notebook
@@ -81,3 +81,7 @@ Follow the instructions in the ``HW2.ipynb`` file. After you complete and run th
 For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``
 
 - In problem 5 of the pdf file, change $\mathcal{D} =$ \{ $(x_i,x_j)|x_i, x_j \in \mathcal{X}$ \} to $\mathcal{D} =$ \{ $(x_i,x_j)$ \}
+
+## Homework 3
+Follow the instructions in the ``HW3.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
+For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``
