@@ -86,10 +86,11 @@ For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.
 Follow the instructions in the ``HW3.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
 For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``
 
-- In problem 1, change $\ddot{Q}+\dot{\mu}^T \dot{\mu} - \dot{Q}Q^{-1} \dot{Q}=0$ to $\ddot{Q}+\dot{\mu} \dot{\mu}^T - \dot{Q}Q^{-1} \dot{Q}=0$.
-- In problem 3(a), change $AJA^T=J$ to $A^TJA=J$.
-- In problem 4(a), $\{y_1, \ldots, y_N\} \in \mathbb{R}^{n}$.
-- In problem 4(b), The gradient of the objective function $f(X)=\mathrm{Tr}(X^T QXA - 2BX^T Q)$ can then be evaluated as ... 
-- In problem 4(b), $df_X(\Omega) =\lim_{\eps \to 0}\frac{1}{\eps} (f(X\exp(\Omega \eps)) - f(X))$.
-- In problem 4(b), $\dot{X} = -XAX^T QX + XB^T Q X$.
-- In problem 4(b) and 4(c), (hint) in Lie group, for the gradient flow $\dot{X} = g(X)$ associated with the minimization problem $\min_X f(X)$, the following equality holds: $\mathrm{Tr}(X^{-1}g(X)\Omega) = -df_{X}(\Omega)$.  
+Correct some errors in the problems as below: 
+- In problem 1, $\ddot{Q}+\dot{\mu} \dot{\mu}^T - \dot{Q}Q^{-1} \dot{Q}=0$
+- In problem 3(a), $A^TJA=J$
+- In problem 4(a), $\text{\{} y_1, \ldots, y_N \text{\}} \in \mathbb{R}^{n}$
+- In problem 4(b), The gradient of the objective function $f(X)=\mathrm{Tr}(X^T QXA - 2BX^T Q)$ can then be ... 
+- In problem 4(b), $df_X(\Omega) =\lim_{\epsilon \to 0}\frac{1}{\epsilon} (f(X\exp(\Omega \epsilon)) - f(X))$
+- In problem 4(b), $\dot{X} = -XAX^T QX + XB^T Q X$
+- In problem 4(b) and 4(c): (Hint) In Lie group $G$, for the gradient flow $\dot{X} = g(X)$ associated with the minimization problem $\min_X f(X)$, the following equality holds: $\mathrm{Tr}(X^{-1}g(X)\Omega) = -df_{X}(\Omega)$ (to see why, $g(X)\in T_X G$ is translated to $X^{-1} g(X) \in T_I G$).  
