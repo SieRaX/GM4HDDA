@@ -89,7 +89,7 @@ For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.
 Correct some errors in the problems as below: 
 - In problem 1, $\ddot{Q}+\dot{\mu} \dot{\mu}^T - \dot{Q}Q^{-1} \dot{Q}=0$
 - In problem 3(a), $A^TJA=J$
-- In problem 4(a), $\text{\{} y_1, \ldots, y_N \text{\}} \in \mathbb{R}^{n}$
+- In problem 4(a), $(y_1, \ldots, y_N) \in \mathbb{R}^{n}$
 - In problem 4(b), The gradient of the objective function $f(X)=\mathrm{Tr}(X^T QXA - 2BX^T Q)$ can then be ... 
 - In problem 4(b), $df_X(\Omega) =\lim_{\epsilon \to 0}\frac{1}{\epsilon} (f(X\exp(\Omega \epsilon)) - f(X))$
 - In problem 4(b), $\dot{X} = -XAX^T QX + XB^T Q X$
