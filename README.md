@@ -92,4 +92,4 @@ For problem 1~4, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.
 - In problem 4(b), The gradient of the objective function $f(X)=\mathrm{Tr}(X^T QXA - 2BX^T Q)$ can then be evaluated as ... 
 - In problem 4(b), $df_X(\Omega) =\lim_{\eps \to 0}\frac{1}{\eps} (f(X\exp(\Omega \eps)) - f(X))$.
 - In problem 4(b), $\dot{X} = -XAX^T QX + XB^T Q X$.
-- In problem 4(b), (hint) in Lie group, for the gradient flow $\dot{X} = g(X)$ associated with the minimization problem $\min_X f(X)$, the following equality holds: $\mathrm{Tr}(X^{-1}g(X)\Omega) = -df_{X}(\Omega)$.  
+- In problem 4(b) and 4(c), (hint) in Lie group, for the gradient flow $\dot{X} = g(X)$ associated with the minimization problem $\min_X f(X)$, the following equality holds: $\mathrm{Tr}(X^{-1}g(X)\Omega) = -df_{X}(\Omega)$.  
