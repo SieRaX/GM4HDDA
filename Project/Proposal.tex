@@ -1,0 +1,89 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\usepackage{balance}
+\begin{document}
+\title{Learning User Preference Constraints from Demonstration}
+\author{ Che-Sang Park 2020-25752%IEEE Publication Technology Department
+% \thanks{Manuscript created October, 2020; This work was developed by the IEEE Publication Technology Department. This work is distributed under the \LaTeX \ Project Public License (LPPL) ( http://www.latex-project.org/ ) version 1.3. A copy of the LPPL, version 1.3, is included in the base \LaTeX \ documentation of all distributions of \LaTeX \ released 2003/12/01 or later. The opinions expressed here are entirely that of the author. No warranty is expressed or implied. User assumes all risk.}
+}
+
+% \markboth{
+%   Journal of \LaTeX\ Class Files,~Vol.~18, No.~9, September~2020
+%   }%
+% {How to Use the IEEEtran \LaTeX \ Templates}
+
+\maketitle
+
+% \begin{abstract}
+% This document describes the most common article elements and how to use the IEEEtran class with \LaTeX \ to produce files that are suitable for submission to the Institute of Electrical and Electronics Engineers (IEEE).  IEEEtran can produce conference, journal and technical note (correspondence) papers with a suitable choice of class options.
+% \end{abstract}
+
+% \begin{IEEEkeywords}
+% Class, IEEEtran, \LaTeX, paper, style, template, typesetting.
+% \end{IEEEkeywords}
+
+
+\section{Proposal}
+\IEEEPARstart{U}{sage} of modern robots are expanding from structured industries to more various types of environments.
+Common robots before are mainly designed to be used in industrial field, isolated with the humans.
+However, robots these days are developed to share space with the humans and 'Cobot' and 'Domestic robots' are one of them.
+Cobots are robots working with the labors in the field, and Domestic robots are robots that does the housework instead.
+Such like these robots, the robots are evloving to share the domain with the human being.
+
+As the domain of robot gets more complicated, we should consider various types of constraints and the first one is the occupancy space. 
+Occupancy space is a space where the robot can exist.
+In complex environments, there are risks of colliding with obstacles and humans, so setting this space is important.
+Also, this space should not only consider currently existing obstacles but also obstacles that could appear in the future, which cannot be detected by the sensor.
+Similar work were done to notify the user about danger zone based on current state of the robot and its task\cite{AR-Based_interaction}.
+However, this work has limitations since it is the user that has to avoid, which makes user passive.
+
+The next constraint should be considered is privacy. If the robots work inside domestic environments, it might sometimes watch places where the user think as private.
+Therefore we should restrict the spaces where the robot can see.
+This problem has been discussed in mobile robot \cite{Face_privacy} \cite{User_preference_aware_navigation} and it needs to be handled in domestic robots too.
+However, privacy is highly subjective property so robot could not detemine it alone.
+Therefore the user should set private spaces by him or herself.
+In this literature, we will call spaces that robot could see as 'Privacy-free space'.
+
+Explicitly entering values to set these constraints could be the most direct method, however it is not user friendly way.
+Using dedicated software like UR robot sofware or ROS to set constraints requires deep understanding of the software and robotics, which is a high burden for the users.
+Also, every time the environment changes, the user should change the constraints all over again which is very time consuming.
+Therefore we need a way to program this constraints easily and intuitively.
+
+We propose programming by demonstration framework to enable for users to set user preference constraints.
+Programming by demonstration\cite{Programming_by_demonstration} is a framework which user programming the robot by demonstration.
+This framework has advantage of easy programming by only moving the robot. 
+However this frame work only focused on learning the motion frome the demonstration and not the constraints.
+Our work will focus on learning occupancy space and privacy-free space from the demonstration.
+
+The occupancy space and privacy-free space are defined by space where the robot and vision cone sweep by the demonstration. 
+After determining these two spaces, the robot should always satisfy following two conditions during the control.
+First, the robot should always be inside the occupancy space, and second, the vision cone should always be inside the privacy-free space.
+
+To express these two space, we use Zonotope.
+Zonotope is defined as a Minkowski sum of set of lines called 'Generators' \cite{Zonotopes}.
+It is advantageous for expressing space sweeped by specific polytope, and detemining collision between two zonotopes.
+However, directly applying zonotopes has several difficulties.
+The zonotope could only express convex spaces, making it hard to express occupancy and privacy-free space which could be non-convex.
+Also, our purpose is to determine the inclusive relationship between occupancy, privacy-free space and robot, vision cone respectively and this is not a collision detecting problem.
+Therefore we cannot apply normal collision determining algorithm of zonotope.
+
+To solve this difficulties, we change the problem into expressing complement of the space with union of zonotopes.
+Zonotope alone could only express convex space, but with union of zonotopes, non-convex space could be expressed.
+Also, zonotope completely inclusive to bigger zonotope means it doesnot collide with the complement of the bigger zonotope.
+Therefore if we could apply collision detection algorithm on the complement space of big zonotope to determine whether small zonotope is completely inclusive to the bigger one.
+
+
+\bibliographystyle{unsrt}
+\bibliography{ref}
+\end{document}
