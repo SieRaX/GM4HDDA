@@ -102,5 +102,5 @@ For problem 1~2, submit your answer sheet in the class or 302-413.
 
 Correct some errors in the problems as below:
 - In problem 1, $\mathcal{S} = ((A, b, \alpha)|A \in SL(n), b \in \mathbb{R}^n, \alpha \in \mathbb{R} )$
-- In problem 1, $(A_1, b_1, \alpha_1) * (A_2, b_2, \alpha_2) = (A_1 A_2, w^{\alpha_1}A_1b_2+b_1, \alpha_1 + \alpha_2)$
+- In problem 1, $(A_1, b_1, \alpha_1) * (A_2, b_2, \alpha_2) = (A_1 A_2, e^{\alpha_1}A_1b_2+b_1, \alpha_1 + \alpha_2)$
 
