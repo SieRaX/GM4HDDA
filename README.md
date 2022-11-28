@@ -100,6 +100,10 @@ Correct some errors in the problems as below:
 Follow the instructions in the ``HW4.ipynb`` file. After you complete and run the HW ipython file, send the result file to ``yhun@robotics.snu.ac.kr``.   
 For problem 1~2, submit your answer sheet in the class or 302-413.
 
+There was an error in the ``HW4.ipynb`` file. More specifically, in C4Group class, left_action_on_H, output size is (b,b), not (b).\
+We uploaded a fixed version of ``HW4.ipynb``, which contains a solution of left_action_on_H. You can pull it from github, or simply download the file.\
+The due date of the programming homework has been extended to December 5th. We offer sincere apologies. 
+
 Correct some errors in the problems as below:
 - In problem 1, $\mathcal{S} = ((A, b, \alpha)|A \in SL(n), b \in \mathbb{R}^n, \alpha \in \mathbb{R} )$
 - In problem 1, $(A_1, b_1, \alpha_1) * (A_2, b_2, \alpha_2) = (A_1 A_2, w^{\alpha_1}A_1b_2+b_1, \alpha_1 + \alpha_2)$
