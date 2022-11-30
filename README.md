@@ -102,7 +102,7 @@ For problem 1~2, submit your answer sheet in the class or 302-413.
 
 There was an error in the ``HW4.ipynb`` file. More specifically, in C4Group class, left_action_on_H, output size is (b,b), not (b).\
 We uploaded a fixed version of ``HW4.ipynb``, which contains a solution of left_action_on_H. You can pull it from github, or simply download the file.\
-The due date of the programming homework has been extended to December 5th. We offer sincere apologies. 
+The due date of the homework has been extended to December 5th. We offer sincere apologies. 
 
 Correct some errors in the problems as below:
 - In problem 1, $\mathcal{S} = ((A, b, \alpha)|A \in SL(n), b \in \mathbb{R}^n, \alpha \in \mathbb{R} )$
