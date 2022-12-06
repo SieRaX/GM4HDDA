@@ -113,3 +113,5 @@ Correct some errors in the problems as below:
 
 ## Homework 5
 There's no programming exercise. For problem 1~5, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``.
+
+- In problem 2, you may assume that $z(0) \in \{-1, 1\}$.
