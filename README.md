@@ -9,6 +9,8 @@ The official repository for the homework assignments of the lecture &lt;Geometri
 [Homework 1](#Homework-1)  
 [Homework 2](#Homework-2)  
 [Homework 3](#Homework-3)  
+[Homework 4](#Homework-4)  
+[Homework 5](#Homework-5)  
 
 #### TA Contacts
 - Younghun Kim (yhun@robotics.snu.ac.kr, *Head TA*)
@@ -23,7 +25,8 @@ Task                 | Due date              | PDF file          | Solution
 **Project Proposal** | November 9, 2022      | [pdf](https://drive.google.com/file/d/1G8mGgSrgKwB0umlJg4jBg--oui7H6Ctz/view?usp=share_link)   | -
 **Assignment III**   | November 14, 2022     | [pdf](https://drive.google.com/file/d/1sbkAN_rn_Zh7ei3-cVR2uEVgBxW99n23/view?usp=share_link)   | TBA
 **Assignment IV**    | November 29, 2022      | [pdf](https://drive.google.com/file/d/1ZnqgPGdb0W2K0O_m5bC3vSH3SCK7kaQY/view?usp=share_link)   | TBA
-**Course Project**   | December 9, 2022      | TBA   | -
+**Assignment V**     | December 12, 2022      | [pdf](https://drive.google.com/file/d/1NYY7uMvlG6PBtDo6V45K7WXabv0BvOAH/view?usp=sharing)   | TBA
+**Final Project**    | December 14, 2022      | [pdf](https://drive.google.com/file/d/14nevUMYiX4AABKrmKq4oC-Ty2PmeF8Gu/view?usp=sharing)   | -
 
 ## Instructions for Settings
 ### Install Anaconda3 and Jupyter Notebook
@@ -109,3 +112,7 @@ Correct some errors in the problems as below:
 - In problem 1, $(A_1, b_1, \alpha_1) * (A_2, b_2, \alpha_2) = (A_1 A_2, e^{\alpha_1}A_1b_2+b_1, \alpha_1 + \alpha_2)$
 - In problem 2, second equation, $\int_{S^2}f(S^{-1}p)h(R^{-1}p)dA_p = (f*h)(S^{-1}R)$
 
+## Homework 5
+There's no programming exercise. For problem 1~5, submit your answer sheet to 302-413, or ``yhun@robotics.snu.ac.kr``.
+
+- In problem 2, you may assume that $z(0) \in$ \{-1, 1\}.
